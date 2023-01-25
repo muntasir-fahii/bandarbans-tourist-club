@@ -5,16 +5,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+
+
+
 /* font-family: 'Poppins', sans-serif; */
 
 :root {
-  --color-primary: #22c55e;
+  --color-primary: #0d9488;
   --color-light: #f7fee7;
   --color-lighter: #ecfccb;
   --color-dark: #3f3f46;
   --color-darker: #27272a;
-  --font-fast:font-family: "Fasthand", cursive;
   --font-regular:font-family: 'Poppins', sans-serif;
 }
 
@@ -53,17 +58,15 @@ body{
   font-size: 2.5rem;
   color: var(--color-light);
   font-weight: bold;
-
-
 }
 
 .logo-sub{
 position: absolute;
-margin-top: 5rem;
+margin-top: 3rem;
 font-size: 1.2rem;
-padding-left: 1.5rem;
 text-transform: uppercase;
-background-color: var(--color-dark);
+background-color: var(--color-light);
+color: var(--color-primary);
 -webkit-backdrop-filter: blur(5px);
 padding: 0 2rem;
 
@@ -77,25 +80,34 @@ padding: 0 2rem;
 }
 
 .text{
-  align-items: center;
-  margin-top: 10rem;
-  padding: 10rem;
-  
+  color: white;
 }
+
 
 .texts{
-  position: relative;
+  font-size: 8rem;
 }
 
-
-.text .headline-top{
-  position:absolute;
-  margin-bottom: 2rem;
-  font-size: 3rem;
+.headline-main {
+  font-family: 'Mr Dafoe', cursive; 
+   font-size:11rem;
+   letter-spacing: 1rem;
 }
 
-.headline-bottom{
-position: absolute;
-margin-top: 2rem;
-font-size: 3rem;
+.gallery{
+  background-color: var(--color-light);
+}
+
+.gallery-title,.about-title {
+  font-size: 6rem;
+}
+
+.gallery-bottom-title{
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 6rem;
+}
+
+.features-headline{
+  font-size: 6rem;
+  font-family: 'EB Garamond', serif;
 }
