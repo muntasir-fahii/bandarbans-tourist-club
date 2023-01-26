@@ -102,7 +102,7 @@ padding: 0 2rem;
   font-size: 6rem;
 }
 
-.gallery-bottom-title{
+.gallery-bottom-title,.testimonials-title-head{
   font-family: 'Mr Dafoe', cursive;
   font-size: 6rem;
 }
@@ -110,4 +110,26 @@ padding: 0 2rem;
 .features-headline{
   font-size: 6rem;
   font-family: 'EB Garamond', serif;
+}
+.testimonials-sub{
+  font-size: 3rem;
+}
+
+
+.button{
+  background: none;
+  padding: 0.5rem 4rem;
+  margin-top: 5rem;
+  display: block;
+  border: 1px solid var(--color-primary);
+  transition: all 0.5s;
+  margin: 0 auto;
+  margin-top: 3rem;
+
+}
+
+button:hover {
+  background-color: var(--color-darker);
+  border: 2px solid var(--color-lighter);
+  color: var(--color-light)
 }

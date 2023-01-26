@@ -3,6 +3,8 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { RiSendPlaneLine } from "react-icons/ri";
 import Gallery from "./Gallery";
 import Features from "./Features";
+import Testimonials from "./Testimonials";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -47,6 +49,8 @@ const Home = () => {
       </div>
       <Gallery />
       <Features />
+      <Testimonials />
+      <Contact />
     </>
   );
 };
