@@ -46,7 +46,7 @@ const Testimonials = () => {
               </p>
               <p className="card-name font-medium">{card.name}</p>
               <span className="card-location text-sm ]">{card.location}</span>
-              <div className="images absolute rounded-full overflow-hidden border-teal-400 border border-separate -bottom-6 right-12 w-20">
+              <div className="images-testimonials absolute rounded-full overflow-hidden border-teal-400 border border-separate -bottom-6 right-12 w-20 ">
                 <img className="shadow-md" src={card.image} alt={card.name} />
               </div>
             </div>

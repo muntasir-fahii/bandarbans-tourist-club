@@ -104,7 +104,7 @@ padding: 0 2rem;
 
 .gallery-bottom-title,.testimonials-title-head{
   font-family: 'Mr Dafoe', cursive;
-  font-size: 6rem;
+  font-size:6rem; 
 }
 
 .features-headline{
@@ -132,4 +132,34 @@ button:hover {
   background-color: var(--color-darker);
   border: 2px solid var(--color-lighter);
   color: var(--color-light)
+}
+
+.sponsor{
+  filter: saturate(0.2) brightness(0.9);
+
+}
+
+
+.images{
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+  gap: 5rem;
+  
+}
+
+.images img{
+  width: 80%;
+}
+
+
+.text-footer{
+  font-family: 'Mr Dafoe', cursive;
+  font-size:2rem; 
+  color: var(--color-light);
+}
+
+.not-found h3{
+  font-family: 'Mr Dafoe', cursive;
+  font-size:6rem; 
 }

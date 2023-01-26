@@ -5,6 +5,8 @@ import Gallery from "./Gallery";
 import Features from "./Features";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
+import Sponsor from "./Sponsor";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -16,14 +18,21 @@ const Home = () => {
             <span className="logo-sub font-medium">tourist club</span>
           </div>
           <div className="links flex justify-between gap-10 items-center text-white text-md font-semibold">
-            <Link className=" hover:text-lime-700 duration-300">
+            <Link to={"/gallery"} className=" hover:text-lime-700 duration-300">
               Destinations
             </Link>
             <Link to={"/about"} className=" hover:text-lime-700 duration-300">
               About
             </Link>
-            <Link className=" hover:text-lime-700 duration-300">Blog</Link>
-            <Link className=" hover:text-lime-700 duration-300">Contact</Link>
+            <Link
+              to={"/features"}
+              className=" hover:text-lime-700 duration-300"
+            >
+              Blog
+            </Link>
+            <Link to={"/contact"} className=" hover:text-lime-700 duration-300">
+              Contact
+            </Link>
           </div>
           <div className="icons flex gap-10 text-2xl mr-20 text-white ">
             <AiOutlineHeart className="hover:text-yellow-400 duration-300" />
@@ -51,6 +60,8 @@ const Home = () => {
       <Features />
       <Testimonials />
       <Contact />
+      <Sponsor />
+      <Footer />
     </>
   );
 };
